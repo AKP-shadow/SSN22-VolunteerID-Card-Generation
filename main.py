@@ -5,7 +5,7 @@ from PIL import ImageDraw
 from PIL import ImageFont
 
 def gen(code, country) :
-    id = Image.open("disec.png") #id card template
+    id = Image.open("template.png") #id card template
     country = country.upper()
 
     path = "C:\\Users\\thean\\Downloads\\MUN\\ID\\flags\\" #location of the data such as images to be inserted in the id
@@ -52,7 +52,7 @@ data = pd.read_csv("flagdata.csv")
 flags = pd.DataFrame(data)
 
 #reads set of id's to be generated
-sheet = 'DISEC'
+sheet = 'UNSC'
 file = 'matrix.xlsx'
 
 df = read_excel(file,sheet)
