@@ -9,3 +9,5 @@ template.png is the base ID template file
 flags-ultra.zip contains all the images 
 output.rar contains the id cards that were generated
 
+<h4><i>Updated the depreciated modules and removed unneccessary lines</h4></i>
+
