@@ -2,7 +2,8 @@
 import numpy as np
 from PIL import Image, ImageDraw
   
-img=Image.open("./student_pics/205002023.jpg")
+img=Image.open("./template.jpeg")
+ 
 # img.show()
   
 height,width = img.size
