@@ -59,7 +59,7 @@ def gen(name,designation,format) :
     id = Image.open("template.jpeg") #id card template
     # name = name.upper()
     # try:
-    path = "./student_pics/ComSoc/" #location of the data such as images to be inserted in the id (BASED ON REGISTER NO)
+    path = "./student_pics/" #location of the data such as images to be inserted in the id (BASED ON REGISTER NO)
     path += str(name+'_'+designation)
     path += format
     # print(path)
@@ -145,7 +145,7 @@ def gen(name,designation,format) :
 
 
 #main file
-for i in get_file_names('.\student_pics\ComSoc'):
+for i in get_file_names('.\student_pics'):
     name = i.split('_')[0]
     designation = i.split('_')[1][:-4]
     format = i.split('_')[1][-4:]
