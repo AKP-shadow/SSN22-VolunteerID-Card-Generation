@@ -1,6 +1,5 @@
-
+ 
 from PIL import Image,ImageDraw,ImageFont
-import numpy as np
 import os
 import pandas as pd
 import shutil
@@ -111,7 +110,7 @@ def gen(name,institution_name,path) :
     print("done")
  
 
-# gen("Prof. S.Lavanya","IISER, Pune","test")
+gen("Prof. S.Lavanya","IISER, Pune","test")
  
 xl = pd.ExcelFile('Order of the Talk - RMS Speakers.xlsx')
 
